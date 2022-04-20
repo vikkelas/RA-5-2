@@ -1,0 +1,39 @@
+.search{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.search>img{
+    max-width: 150px;
+    position: absolute;
+    left: -150px;
+}
+
+.titles-list{
+    display: flex;
+    list-style: none;
+}
+.title-item>a{
+    text-decoration: none;
+    padding: 0 5px;
+    color: #2672c9;
+    font-weight: bold;
+
+}
+
+.search__form>input{
+    padding: 10px;
+    border: 2px solid #ffd83e;
+    margin-left: 30px;
+    width: 100%;
+}
+.day-link{
+    margin-left: 30px;
+}
+.day-link>a{
+    text-decoration: none;
+    padding-left: 10px;
+    opacity: 0.6;
+}
